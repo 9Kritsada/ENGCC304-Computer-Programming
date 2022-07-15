@@ -15,7 +15,7 @@ int main() {
     i = 0 ;
     j = 0;
     printf( "\n" ) ;
-    
+
     while( i < N ) {
         j = 0 ;
         while( j < N ) {
