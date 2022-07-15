@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-
     char employees_id[10] ;
     int working_time ;
     float salary_amount_hr ;
