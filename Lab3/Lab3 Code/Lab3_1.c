@@ -5,8 +5,8 @@ int main() {
     float input2 ;
     char input3 ;
     printf( "Please enter value : " ) ;
-    scanf( "%d %f %c" , &input1 , &input2 , &input3 ) ;
-    printf( "%d %.2f %c" , input1 , input2 , input3 ) ;
+    scanf( "%d %f %c", &input1, &input2, &input3 ) ;
+    printf( "%d %.2f %c", input1, input2, input3 ) ;
     return 0 ;
 }
 
