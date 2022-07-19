@@ -18,4 +18,4 @@ int main() {
     printf( "Employees ID : %s \n", employees_id ) ;
     printf( "Expected Output : %.2f Baht(s) \n", salary_amount_day ) ;
     return 0 ;
-}
+} // End Function main()
