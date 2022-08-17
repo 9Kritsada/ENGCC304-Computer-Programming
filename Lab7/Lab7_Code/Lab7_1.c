@@ -11,12 +11,13 @@ int main() {
             if( number % i == 0 ) {
                 check = 1 ;
                 break ;
-            }
+            } // end if
             i++ ;
-        }
+        } // end while
         if( check == 0 && number != 1 ){
 	        printf( "%d ", number ) ;
-        }
+        } // end if
         number-- ;
-    }
-}
+    } // end while
+    return 0 ;
+} // end function main() 
