@@ -43,10 +43,10 @@ int read_file( data user[] ) {
 
 void calculate_age( data user[], int i ) {
    int year_end = 2018, month_end = 6, day_end = 21 ;
-
+   
    char * token = strtok( user[ i ].date, "-" ) ;
+   int count = 0 ;
    while( token != NULL ) {
-      int count = 0 ;
       int data = atoi( token ) ;
       if( count == 0 ) {
          user[ i ].years_old = year_end - data ;
