@@ -9,7 +9,6 @@
 21 / 6 / 2018
 
 ## ข้อมูลภายในไฟล์ a.txt
-
 ---------------------------
 No	Name		Birthday
 1	Aoy		1989-06-11
@@ -23,9 +22,7 @@ No	Name		Birthday
 9	Doy		1989-01-27
 ---------------------------
 
-
 ## Test Case
-
 ---------------------------
 Aoy 29 Years, 0 Months
 Boy 19 Years, 7 Months

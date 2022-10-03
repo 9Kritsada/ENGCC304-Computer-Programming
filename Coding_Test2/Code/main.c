@@ -7,7 +7,7 @@ struct data_user {
    char date[ 100 ] ;
    int years_old ;
    int month ;
-} typedef data ;  
+} typedef data ; 
 
 int read_file( data[] ) ;
 void calculate_age( data[], int ) ;
@@ -30,11 +30,11 @@ int read_file( data user[] ) {
    FILE *fp = fopen( "a.txt", "r" ) ;
    if ( fp == NULL ) {
       printf( "Error opening" ) ;
-      exit( 0 ) ;
+      exit( 1 ) ; // Exit function
    } // end if
    fscanf( fp, "%s %s %s", t1, t2, t3 ) ;
    int i = 0 ;
-   while( fscanf( fp, "%s %s %s", t1, user[i].name, user[i].date ) != EOF ) {
+   while( fscanf( fp, "%s %s %s", t1, user[i].name, user[i].date ) != EOF ) { // EOF => End of file
       i++ ;
    } // end while
    fclose( fp ) ;
@@ -61,8 +61,8 @@ void calculate_age( data user[], int i ) {
             user[ i ].month-- ;
          }
       } // end if
-      token = strtok( NULL, "-" ) ;
       count++ ;
+      token = strtok( NULL, "-" ) ;
    } // end while
 } // end calculate_age() function
 
