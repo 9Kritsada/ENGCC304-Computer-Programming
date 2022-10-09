@@ -2,7 +2,7 @@
 
 <p>Lab 1 : Computer Hardware Software and Dev_C Program. </p>
 <p>Lab 2 : Algorithms, Flowcharts and Pseudocode. </p>
-<p>Lab 3 : Basic command of C language, structure and coding standards. </p>
+<p>Lab 3 : Basic syntax of C language, structure and coding standards. </p>
 <p>Lab 4 : Data Type Variables, Reserved Words, and Operators. </p>
 <p>Lab 5 : If Else and Switch Case </p>
 <p>Lab 6 : For Loop <br />
