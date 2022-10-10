@@ -12,6 +12,6 @@
 <p>Lab 11 : Function </p>
 <p>Lab 12 : Structure </p>
 <p>Lab 13 : Pointer </p>
-<p>Lab 14 : Techniques for finding The Greatest and Least values. </p>
+<p>Lab 14 : Techniques for finding Max and Min values. </p>
 <p>Lab 15 : Operations on File. </p>
 <p>Lab 16 : Techniques for searching and sorting data within an array variable. </p>
